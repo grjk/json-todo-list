@@ -4,6 +4,7 @@
     text-align: center;
     text-decoration-line: underline;
     transition: .5s;
+    height: 60px;
 }
 
 .App-header:hover {
