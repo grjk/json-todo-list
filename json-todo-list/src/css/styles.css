@@ -1,0 +1,12 @@
+.App-header {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration-line: underline;
+    transition: .5s;
+}
+
+.App-header:hover {
+    font-size: 60px;
+    text-decoration-color: white;
+}

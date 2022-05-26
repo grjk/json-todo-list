@@ -1,7 +1,9 @@
+import "./css/styles.css";
+
 function App() {
   return (
     <div className="App">
-      <header className="App-header">Initial commit</header>
+      <header className="App-header">To-Do App</header>
     </div>
   );
 }
