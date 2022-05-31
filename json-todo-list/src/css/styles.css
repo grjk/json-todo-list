@@ -11,3 +11,27 @@
     font-size: 60px;
     text-decoration-color: white;
 }
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.card {
+    margin: 50px 0;
+}
+
+.card-title {
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.card-body {
+    background-color: gainsboro;
+    width: 300px;
+    height: 200px;;
+}
