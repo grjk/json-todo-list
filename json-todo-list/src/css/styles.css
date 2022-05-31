@@ -1,3 +1,8 @@
+.App {
+    height: 98.5vh;
+    overflow: hidden;
+}
+
 .App-header {
     font-size: 50px;
     font-weight: bold;
@@ -12,26 +17,28 @@
     text-decoration-color: white;
 }
 
-.cards {
+.card-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
-    margin: 50px 0;
+    height: calc(100% - 60px);
+    overflow: auto;
 }
 
 .card {
-    margin: 50px 0;
+    margin: 20px 0;
 }
 
 .card-title {
     text-align: center;
     font-size: x-large;
     font-weight: bold;
+    padding-bottom: 25px;
 }
 
 .card-body {
     background-color: gainsboro;
     width: 300px;
-    height: 200px;;
+    padding: 50px 20px;
 }
