@@ -17,6 +17,11 @@
     text-decoration-color: white;
 }
 
+.header-inputs {
+    display: flex;
+    justify-content: center;
+}
+
 .card-container {
     display: flex;
     flex-direction: column;

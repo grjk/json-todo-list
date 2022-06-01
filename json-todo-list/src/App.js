@@ -51,7 +51,7 @@ function App() {
       .then((createdTodo) => setTodos([createdTodo, ...todos]));
   };
 
-  const editTodo = ({ completed, id, title, userId }) => {
+  const editTodo = ({ completed, id }) => {
     fetch(`https://jsonplaceholder.typicode.com/todos/${id}`, {
       method: "PATCH",
       body: JSON.stringify({
@@ -98,15 +98,13 @@ function App() {
     <div className="App">
       <header className="App-header">To-Do App</header>
       <h1>{test}</h1>
-      <div className="search">
+      <div className="header-inputs">
         <input
           type="text"
           placeholder="Search"
           onChange={(e) => setST(e.target.value)}
           value={searchTerm}
         ></input>
-      </div>
-      <div className="create-todo">
         Add new todo:
         <input
           type="text"
